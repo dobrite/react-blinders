@@ -1,11 +1,11 @@
-var React = require('react/addons');
+var React = require("react/addons");
 
 class Blinder extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      style: { display: 'block' },
-      onClick: this.handleClick.bind(this),
+      style: { display: "block" },
+      onClick: this.handleClick.bind(this)
     };
   }
 
@@ -18,7 +18,7 @@ class Blinder extends React.Component {
 
   get toggledDisplay() {
     let display = this.state.style.display;
-    return (display === 'block') ? 'none' : 'block';
+    return (display === "block") ? "none" : "block";
   }
 
   render() {

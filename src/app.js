@@ -1,9 +1,9 @@
-'use strict';
+"use strict";
 
-var React = require('react/addons'),
-    Main = require('./Main');
+let React = require("react/addons");
+let Main = require("./Main");
 
 React.render(
   <Main />,
-  document.getElementById('blinder')
+  document.getElementById("blinder")
 );
