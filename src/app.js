@@ -1,7 +1,7 @@
 "use strict";
 
-let React = require("react/addons");
-let Main = require("./Main");
+import React from "react/addons"
+import Main from "./Main"
 
 React.render(
   <Main />,

@@ -1,5 +1,5 @@
-var React = require("react/addons"),
-    Blinder = require("./Blinder");
+import React from "react/addons"
+import Blinder from "./Blinder"
 
 class Main extends React.Component {
   constructor(props) {
