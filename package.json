@@ -11,9 +11,7 @@
     "babel-core": "^4.7.5",
     "babel-eslint": "^2.0.0",
     "babel-loader": "^4.1.0",
-    "css-loader": "~0.9.0",
     "eslint": "^0.17.0",
-    "jsx-loader": "^0.12.2",
     "webpack": "~1.4.11"
   },
   "scripts": {
