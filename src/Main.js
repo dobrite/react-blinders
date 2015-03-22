@@ -4,7 +4,6 @@ import Blinder from "./Blinder"
 class Main extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { };
   }
 
   render() {
