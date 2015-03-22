@@ -3,7 +3,7 @@ import Blinder from "./Blinder"
 
 class Main extends React.Component {
   constructor(props) {
-    super(props);
+    super(props)
   }
 
   render() {
@@ -33,4 +33,4 @@ class Main extends React.Component {
   }
 }
 
-export default Main;
+export default Main
